@@ -1,0 +1,102 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.getadog {
+		background-image: url('../img/devices_md.png');
+		background-position: center 415px;
+	}
+
+	.getadog {
+		text-align: center;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	header {
+		background-position: 120px 380px;
+	}
+
+	.getadog {
+		background-image: url('../img/devices_sm.png');
+		background-position: center bottom;
+	}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	header {
+		background-position: 70px 420px;
+	}
+	.contact form label span {
+		margin: 0
+	}
+
+	.contact  {
+		padding: 150px 0;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	header h5 {
+		font-size: 1.3em;
+	}
+	.soc-menu ul li {
+		margin-left: 25px;
+	}	
+	.longwinded {
+		background-position: 200px 500px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	header h5 {
+		font-size: 1.5em;
+	}
+	
+	.longwinded {
+		background-position: 250px 420px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+	header h5 {
+		font-size: 2.1875em;
+	}
+	
+	.longwinded {
+		background-position: 300px 420px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.longwinded {
+		background-position: 750px 165px;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {		
+	.longwinded {
+		background-position: 1050px 165px;
+	}
+}

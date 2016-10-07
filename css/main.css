@@ -1,0 +1,360 @@
+body {
+	position:relative;
+	clear: both;
+	min-height: 100%;
+	background-color: #61c0e7;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+/******************************header**************************/
+
+header {
+	background: url('../img/iPhone.png') no-repeat 231px 380px;
+	overflow: hidden;
+}
+
+.logo {
+	width: 100%;
+	min-height: 115px;
+	background: url('../img/logotype.png') no-repeat center left;
+}
+
+.nav {
+	width: 100%;
+	line-height: 115px;
+	text-align: right;
+}
+
+.nav button {
+	background: url(../img/navs.png) no-repeat center center;
+	line-height: 115px; 
+	width: 30px;
+	height: 115px;
+	display: inherit;
+	float: right;
+	border: none;
+}
+
+button.btn:hover {
+	color: #fff;
+}
+
+header h1 {
+	text-align: right;
+	font-size: 4.375em;
+	font-family: "BlackJackRegular";
+	margin: 0;
+	padding: 50px 0;
+}
+
+header h5 {
+	font-family: "ProximaLight";
+	text-align: right;
+	margin: 0;
+	padding-bottom: 50px;
+}
+
+header h5 span {
+	font-family: "ProximaBoldIt";
+}
+
+.header-bottom-wrapper {
+	min-height: 285px;
+}
+
+.btn-standart {
+	min-height: 55px;
+	border-radius: 2px;
+	background-color: transparent;
+	padding: 16px 26px;
+	border: 2px solid #fff;
+	font-family: "ProximaRegular";
+	font-size: 1.1em;
+}
+
+.btn-standart span {
+	width: 20px;
+	display: inline-block;
+	height: 15px;
+	margin-left: 15px;
+	background-image: url('../img/btn_icon_set.png');
+	background-repeat: no-repeat;
+	background-position: center 3px;
+}
+
+/************************section.longwinded*********************************/
+
+.longwinded {
+	background-color: #f4f4f4;
+	background-image: url('../img/iPad.png');
+	background-repeat: no-repeat; 
+	padding: 145px 0;
+	overflow: hidden;
+	color: #000;
+	text-align: left;
+}
+
+.longwinded h2 {
+	margin: 0;
+	padding-bottom: 44px;
+	font-family: "ProximaLight";
+	font-size: 2.5em;
+}
+
+.longwinded p {
+	font-family: "ProximaRegular";
+	color: #878787;
+	line-height: 1.3em;
+	font-size: 1em;
+	word-spacing: 3px;
+	margin: 0;
+	margin-bottom: 33px;
+}
+
+.longwinded p:nth-child(3) {
+	font-family: "ProximaRegularIt";
+	border-left: 6px solid #4eacdd;
+	padding-left: 24px;
+	margin-bottom: 71px;
+}
+
+.longwinded .btn-standart {
+	color: #14af8f;
+	border-color: #14af8f;
+}
+
+.longwinded .btn-standart span {
+	background-position: 0 -52px;
+}
+
+/***********************section.getadog*************************/
+
+.getadog {
+	color: #000;
+	background-color: #fff;
+	background-image:url('../img/devices.png');
+	background-position: -96px 294px;
+	background-repeat: no-repeat; 
+}
+
+.getadog article {
+	width: 100%;
+}
+
+.getadog h2 {
+	margin: 105px 0 50px 0;
+}
+
+.getadog p {
+	margin: 0;
+	margin-bottom: 35px;
+	color: #474e5d;
+}
+
+.getadog p:nth-child(3) {
+	color: #7e7e7e;
+}
+
+.getadog p strong {
+	display: block;
+	font-family: "ProximaSemiBoldIt";
+}
+
+.getadog .btn-standart {
+	color: #ea4c89;
+	border-color: #ea4c89;
+	margin: 20px 0 238px 0;
+
+}
+
+.getadog .btn-standart span {
+	background-position: 0 -114px;
+	margin-left: 5px;
+}
+
+/***********************section.buy*************************/
+
+.buy {
+	color: #fff;
+	background-color: #13c1ac;
+}
+
+.buy h2 {
+	text-align: center;
+	margin: 0;
+	padding: 100px 0 41px 0;
+	font-family: "ProximaRegular";
+	font-size: 2.5em;
+}
+
+.buy .btn-standart {
+	margin-bottom: 97px;
+}
+
+.buy .btn-standart span {
+	background-position: 0 -184px;
+}
+
+/***********************section.contact*************************/
+
+.contact {
+	padding: 205px 0;
+	width: 100%;
+	height: auto;
+}
+
+.soc-menu {
+	overflow: hidden;
+	margin-bottom: 70px;
+}
+
+.soc-menu ul {
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0; 
+	list-style-type: none;
+	padding: 0 20px; 
+
+}
+
+.soc-menu ul li {
+	float: left;
+	height: 56px;
+	width: 56px;
+	border-radius: 56px; 
+	display: inline-block;
+	border: 4px solid #545454;
+	margin-left: 45px;
+}
+
+.soc-menu ul li:hover {
+	border-color: #fff;
+	cursor: pointer;
+}
+
+.soc-menu a {
+	display: block;
+	width: 30px;
+	margin: 0 8px;
+	height: 50px;
+	background: url('../img/icons_set.png') no-repeat center 14px;
+}
+
+.soc-menu li:nth-child(2) a {
+	background-position: 5px -24px;
+}
+
+.soc-menu li:nth-child(3) a {
+	background-position: 5px -65px;
+}
+
+.soc-menu li:nth-child(4) a {
+	background-position: 1px -115px;
+}
+
+.contact form {
+	font-family: "ProximaSemiBoldIt";
+}
+
+.contact form label {
+	width: 100%;
+	color: #545454;
+	margin: 0;
+}
+
+.contact .input-wrapper {
+	min-width: 220px;
+	min-height: 43px;
+	background-color: #fff;
+	background-image: url('../img/input_bg.png');
+	background-repeat: no-repeat;
+	background-position: 155px 13px;
+	border-radius: 7px;
+}
+
+.contact form input {
+	font-size: 0.875em;
+	color: #d3d3d3;
+	border: none;
+	padding-left: 20px;
+	background-color: transparent;
+	line-height: 43px;
+}
+
+.contact form label span {
+	display: block;
+	float: left;
+	line-height: 43px;
+	max-height: 180px;
+	margin-left: 40px;
+}
+
+form button {
+	width: 16px;
+	height: 17px;
+	border:none;
+	background-color: transparent;
+	background-image: url('../img/btn_bg.png');
+	background-repeat: no-repeat;
+	background-position: center 5px;
+	margin-left: 20px;
+}
+
+/***********************footer*************************/
+
+footer {
+	width: 100%;
+	background-color: #fff;
+	min-height: 100px;
+	color: #545454; 
+	position: absolute;
+	bottom: 0;
+}
+
+footer h4 {
+	position: relative;
+	min-height: 100%;
+	margin: 0;
+	line-height: 100px;
+	font-size: 0.8em;
+	font-family: "ProximaRegular";
+}
+
+footer h4 span {
+	font-family: "ProximaSemiBoldIt";
+}
+
+footer h4 a {
+	color: #6dc5ea;
+}
+
+footer h4 a:hover {
+	color: #5ba7c7;
+	text-decoration: none;
+}
+
+footer .btn-up {
+	float: right;
+	margin-top: 30px;
+	margin-right: 60px;
+	line-height: 40px;
+	background-color: #f4f4f4;
+	width: 40px;
+	height: 40px;
+	border-radius: 6px;
+}
+
+footer .btn-up:hover {
+	cursor: pointer;
+}

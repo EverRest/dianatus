@@ -1,0 +1,60 @@
+/* font-family: "BlackJackRegular"; */
+@font-face {
+	font-family: "BlackJackRegular";
+	src: url("../fonts/BlackJackRegular/blackjack-webfont.eot");
+	src: url("../fonts/BlackJackRegular/blackjack-webfont.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/BlackJackRegular/blackjack-webfont.woff") format("woff"),
+	url("../fonts/BlackJackRegular/blackjack-webfont.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "ProximaBoldIt"; */
+@font-face {
+	font-family: "ProximaBoldIt";
+	src: url("../fonts/ProximaNovaBoldIt/proximanova-boldit-webfont.eot");
+	src: url("../fonts/ProximaNovaBoldIt/proximanova-boldit-webfont.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ProximaNovaBoldIt/proximanova-boldit-webfont.woff") format("woff"),
+	url("../fonts/ProximaNovaBoldIt/proximanova-boldit-webfont.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "ProximaLight"; */
+@font-face {
+	font-family: "ProximaLight";
+	src: url("../fonts/ProximaNovaLight/proximanova-light-webfont.eot");
+	src: url("../fonts/ProximaNovaLight/proximanova-light-webfontt.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ProximaNovaLight/proximanova-light-webfont.woff") format("woff"),
+	url("../fonts/ProximaNovaLight/proximanova-light-webfont.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "ProximaRegular"; */
+@font-face {
+	font-family: "ProximaRegular";
+	src: url("../fonts/ProximaNovaRegular/ProximaNova-Regular.eot");
+	src: url("../fonts/ProximaNovaRegular/ProximaNova-Regular?#iefix")format("embedded-opentype"),
+	url("../fonts/ProximaNovaRegular/ProximaNova-Regular.woff") format("woff"),
+	url("../fonts/ProximaNovaRegular/ProximaNova-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "ProximaRegularIt"; */
+@font-face {
+	font-family: "ProximaRegularIt";
+	src: url("../fonts/ProximaNovaRegularIt/proximanova-regularitalic-webfont.eot");
+	src: url("../fonts/ProximaNovaRegularIt/proximanova-regularitalic-webfont?#iefix")format("embedded-opentype"),
+	url("../fonts/ProximaNovaRegularIt/proximanova-regularitalic-webfont.woff") format("woff"),
+	url("../fonts/ProximaNovaRegularIt/proximanova-regularitalic-webfont.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "ProximaSemiBoldIt"; */
+@font-face {
+	font-family: "ProximaSemiBoldIt";
+	src: url("../fonts/ProximaNovaSemiBoldIt/proximanova-semibolditalic-webfont.eot");
+	src: url("../fonts/ProximaNovaSemiBoldIt/proximanova-semibolditalic-webfont.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ProximaNovaSemiBoldIt/proximanova-semibolditalic-webfont.woff") format("woff"),
+	url("../fonts/ProximaNovaSemiBoldIt/proximanova-semibolditalic-webfont.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
